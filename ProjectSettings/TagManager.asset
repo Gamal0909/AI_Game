@@ -3,12 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ScoreTEXT
+  - Impediment
+  - HealthTEXT
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Env
   - Water
   - UI
   - 
@@ -43,4 +47,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 612579333
+    locked: 0
+  - name: Enmy
+    uniqueID: 4075919565
+    locked: 0
+  - name: ENV
+    uniqueID: 3606935285
     locked: 0
