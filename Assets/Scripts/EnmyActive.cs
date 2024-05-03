@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnmyActive : MonoBehaviour
 {
     public GameObject Enemy;
-    public int time = 2;
+    public int time = 0;
     private void Awake()
     {
         Enemy.SetActive(false);
